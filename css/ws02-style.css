@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+.right{
+    text-align: right;
+    padding-right: 10;
+    height: 30;
+}
+.left{
+    text-align: left;
+    width: 50%;
+    height: 30px;
+}
+#aa{
+    width: 60px;
+}

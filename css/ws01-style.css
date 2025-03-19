@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+.right{
+    text-align: right;
+    padding-right: 15px;
+}
+.left{
+    text-align: left;
+    width: 50%;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}

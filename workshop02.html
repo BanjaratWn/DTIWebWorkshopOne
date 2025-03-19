@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ws02-style.css">
+</head>
+<body>
+    <img src="./images/img2.png" alt="">
+    <h1>SAU Hotel</h1>
+    <h1>Register</h1>
+    <hr>
+    <table>
+        <tr>
+            <td class="right">
+                <p>ชื่อ - สกุล :</p>
+            </td>
+            <td class="left">
+                <input type="text" name="full_name" id="">
+            </td>
+        </tr>
+        <tr>
+            <td class="right">
+                <p>คำนำหน้า :</p>
+            </td>
+            <td class="left">
+                <input type="radio" name="gender" id="Mr" checked> นาย
+                <input type="radio" name="gender" id="Mrs"> นาง
+                <input type="radio" name="gender" id="Ms"> นางสาว
+            </td>
+        </tr>
+        <tr>
+            <td class="right">
+                <p>ประเภทห้อง :</p>
+            </td>
+            <td class="left">
+                <select name="" id="">
+                    <option value="1">Standard Room (750 บาท/คืน)</option>
+                    <option value="2">Superior (1050 บาท/คืน)</option>
+                    <option value="3">Deluxe (1500 บาท/คืน)</option>
+                    <option value="4">Suite (5000 บาท/คืน)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="right">
+                <p>จำนวนคืนที่เข้าพัก</p>
+            </td>
+            <td class="left">
+                <input id="aa" type="number" name="" /> คืน
+            </td>
+        </tr>
+        <tr>
+            <td class="right">
+                <p>จำนวนคนที่เข้าพัก</p>
+            </td>
+            <td class="left">
+                <input id="aa" type="number" name="" /> คน
+            </td>
+        </tr>
+        <tr>
+            <td class="right">
+                <p>วันที่เข้าพัก</p>
+            </td>
+            <td class="left">
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td class="right">
+                <p>Optiomn :</p>
+            </td>
+            <td class="left">
+                <input type="checkbox" name="breakfast" value="1"> อาหารเช้า
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="left">
+                <input type="checkbox" name="lunch" value="2"> อาหารกลางวัน
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="left">
+                <input type="checkbox" name="dinner" value="3"> อาหารค่ำ
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">บันทึกข้อมูล</button>
+                <button type="reset">ยกเลิก</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
